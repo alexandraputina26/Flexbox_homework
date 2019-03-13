@@ -1,0 +1,41 @@
+html {
+    background-color: #FFC0CB
+}
+
+header, footer {
+    height: 70px;
+    background-color: rgb(34,139,34);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(34,139,34); opacity: 0.7;
+    justify-content: space-around;
+}
+
+#div1 {
+    height: 250px;
+    width: 250px;
+    background-image: url("koln.jpg");
+    background-size: cover;
+}
+
+#div2 {
+    height: 250px;
+    width: 250px;
+    background-image: url("barcelona.jpg");
+    background-size: cover;
+}
+
+#div3 {
+    height: 250px;
+    width: 250px;
+    background-image: url("seattle.jpg");
+    background-size: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}

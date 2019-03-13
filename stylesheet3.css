@@ -1,0 +1,77 @@
+.main {
+    height: 600px;
+    width: 800px;
+    display: grid;
+    grid-gap: 20px;
+    background-image: url("Behongo.jpg");
+}
+
+#div1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 5;
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div2 {
+    grid-column: 5 / 10;
+    grid-row: 1 / 5;
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div3 {
+    grid-column: 1 / 5;
+    grid-row: 5 / 10;
+    background-image: url("3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div4 {
+    grid-column: 5 / 10;
+    grid-row: 5 / 10;
+    background-image: url("4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div_1 {
+    background-color: aliceblue; opacity: 0.6;
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+    text-decoration-style: solid;
+}
+
+.div_2 {
+    background-color: aliceblue; opacity: 0.6;
+    grid-column: 5 / 10;
+    grid-row: 4 / 5;
+    text-decoration-style: solid;
+}
+
+.div_3 {
+    background-color: aliceblue; opacity: 0.6;
+    grid-column: 1 / 5;
+    grid-row: 9 / 10;
+    text-decoration-style: solid;
+}
+
+.div_4 {
+    background-color: aliceblue; opacity: 0.6;
+    grid-column: 5 / 10;
+    grid-row: 9 / 10;
+    text-decoration-style: solid;
+}
+
+@media all and (max-width:768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .main {
+        width: 400px;
+    }
+}
